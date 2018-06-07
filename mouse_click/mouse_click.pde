@@ -96,5 +96,6 @@ void mouseClicked()
   int gy = mouseY/CELLSIZE+1;
 
   ban[gx][gy] = teban;
+  teban = teban * -1;
   // update teban to the next color 
 }
